@@ -35,38 +35,143 @@ body {
 }*/
 
 .hero {
-    background-image: url(../src/styles/img/backgroundhero.webp);
-    height: 60svh;
+    background:  url(../src/styles/img/backgroundhero.webp);
+    height: 90svh; 
     background-repeat: no-repeat;
-    background-size:auto;
-    background-position-x: right;
-    
-}
-h1, h2{
-    color: black;
-    
+    background-size:cover;
+    background-color: rgb(241, 237, 237);
+    margin-top: none ;
+   
 }
 
+.hero button { 
+    width: 890px;
+    margin: 35px 50px 1px 210px;
+    padding-top: 32px;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 43px;
+    color: rgb(255, 255, 255);
+    padding-top: 32px;
+}
+.hero p{
+    text-align: center;
+    font-size: 33px;
+    color: rgb(255, 255, 255);
+}
+
+
+.hero button{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    font-size: 22px;
+    
+    
+  
+}
 
 
 
-.protects {
-    display:flex; 
+/* button{
+    display: inline-block;
+    align-content: center;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: none;
+    color: #6e1919;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+    width: 150px;
+    transition: all 1s;
+    cursor: pointer;
+    } */
+    
+
+
+
+
+/*.hero button{
+    background-color:rgb(231, 229, 229);
+    font-size: 20px;
+    border: 2px solid #555555;}
+    text-align: center;
+    */
+
+  
+
+
+
+/*.protects{
+    display: inline-block;
+    justify-content: center;
+}*/
+
+
+/*.protects {
+    display: inline-block;
+    width: 88; }*/
+
+
+/*
+.protects{
+content: center;
+justify-content:  space-around;
+justify-items: center;
+height: 40svh; } */
+
+h2{
+    text-align:center; 
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+   
+}
+.sections {
+    margin-top: 100px;
+    margin-bottom: 100px;}
+
+.sections .protects{
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+
+
+.sections .reviews{
+   display: flex;
+   justify-content: center;
+
+}
+
+/*.reviews{
+    display: inline-block;
+    width: 88;
+}*/
+
+
+
+    /*display: inline-block;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 60svh;
-}
-h3{
-    text-decoration: center;
-
-}
-.reviews{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    height: 50svh;*/
 
 
-}
+form:focus {
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border: 3px solid #555;}
+
 
 footer {
     display: inline-block;
@@ -76,6 +181,7 @@ footer {
     justify-content: space-around;
     list-style: none;
     font-size: 20px;
+
 }
 
   

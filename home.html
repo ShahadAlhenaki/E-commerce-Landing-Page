@@ -11,6 +11,7 @@
 
 <body>
     <header> 
+        <form>
         <nav class="nav">
             <a href="home.html"> <img src="src/styles/img/c1.jpeg"></a>
             <ul class="navlist">
@@ -21,28 +22,29 @@
         </nav>
 
     </header>
-
+    <form>
         <section class="hero">
-            <h1>Welcome to cars website</h1>
-            <h2>Let's Find Your Perfect Car</h2>
+            <h1>Welcome To Cars Website</h1>
+            <p>Let's Find Your Perfect Car</p>
             <button> Show </button>
         </section>
 
     <main>
-        <section class="protects" >
-            <h3>Cars</h3>
-            <div>
-                <h4>SUV</h4>  
+        <section class="sections">
+            <h2>Cars</h2>
+            <div class="protects">
+                <h3>SUV</h3>  
                 <img src="src/styles/img/suvcar.jpeg"  alt="suv">       
                 <ul>
                     <li>BMW X4 M</li>
                     <li>Mercedes-Benz GLS 450</li>
                     <li>Land Rover Range Rover Velar</li>
                 </ul> 
+                <button>Show More</button>
             </div>
-            <button>Show More</button>
-            <div>
-                <h4>Sadan</h4> 
+            
+            <div class="protects">
+                <h3>Sadan</h3> 
                 <img src="src/styles/img/fordtaurus.jpeg"  alt="sadan">         
                 <ul>
                     <li>Hyundai Sonata</li>
@@ -51,8 +53,8 @@
                 </ul> 
                 <button>Show More</button>
             </div>
-            <div>
-                <h4>Electric Cars</h4>
+            <div class="protects">
+                <h3>Electric Cars</h3>
                 <img src="src/styles/img/lucidair.jpeg"  alt="electriccars">          
                 <ul>
                     <li>Tesla Model 3</li>
@@ -63,18 +65,18 @@
             </div>
         </section>
 
-        <section class="reviews">
-            <h3>Testimonials</h3>
-            <div>  
-                <h4>sultan Abdulaziz</h4>
+        <section class="sections">
+            <h2>Testimonials</h2>
+            <div class="reviews">  
+                <h3>sultan Abdulaziz</h3>
                 <p>I like it !!!! </p>
             </div>
-            <div>
-                <h4>Mohannad Khalid</h4>         
+            <div class="reviews">
+                <h3>Mohannad Khalid</h3>         
               <p>The website so cool we can find every car We need :) </p>
             </div>
-            <div>
-                <h4>Sara Ahmad</h4>         
+            <div class="reviews">
+                <h3>Sara Ahmad</h3>         
             <p> Vrey useful car I recommend it for gils </p>
             </div>
         </section>
@@ -84,6 +86,10 @@
 
 
 
+<form>
+    <label for="email">If you want to receive our news subscribe to us</label>
+    <input type="text" id="fname" name="email" value="John@email.com">
+  </form> 
 
 
 
